@@ -538,10 +538,6 @@
                 // Play the music
                 audio.play().catch(e => {
                     console.log('Audio play failed:', e);
-                    alert('Untuk memutar musik, silakan upload file audio romantis:\n\n' +
-                          '- music/romantic-song.mp3 untuk tombol Romantic Music\n' +
-                          '- music/love-song.mp3 untuk tombol Love Song\n\n' +
-                          'Atau ganti path di code sesuai lokasi file musik Anda!');
                     
                     // Hide now playing if failed
                     document.getElementById('nowPlaying').style.display = 'none';
